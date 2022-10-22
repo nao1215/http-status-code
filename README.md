@@ -1,5 +1,5 @@
 [![Build](https://github.com/nao1215/http-status-code/actions/workflows/build.yml/badge.svg)](https://github.com/nao1215/http-status-code/actions/workflows/build.yml)
-[![UnitTest](https://github.com/nao1215/http-status-code/actions/workflows/unit_test.yml/badge.svg)](https://github.com/nao1215/http-status-code/actions/workflows/unit_test.yml)
+[![PlatformUnitTests](https://github.com/nao1215/http-status-code/actions/workflows/platform_test.yml/badge.svg)](https://github.com/nao1215/http-status-code/actions/workflows/platform_test.yml)
 [![codecov](https://codecov.io/gh/nao1215/http-status-code/branch/main/graph/badge.svg?token=AGqQgVDcL1)](https://codecov.io/gh/nao1215/http-status-code)
 [![reviewdog](https://github.com/nao1215/http-status-code/actions/workflows/reviewdog.yml/badge.svg)](https://github.com/nao1215/http-status-code/actions/workflows/reviewdog.yml)
 [![Go Report Card](https://goreportcard.com/badge/github.com/nao1215/http-status-code)](https://goreportcard.com/report/github.com/nao1215/http-status-code)
