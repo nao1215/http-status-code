@@ -3,8 +3,8 @@ package cmd
 import (
 	"os"
 
-	"github.com/nao1215/hsc/http"
-	"github.com/nao1215/hsc/internal/print"
+	"github.com/nao1215/http-status-code/http"
+	"github.com/nao1215/http-status-code/internal/print"
 	"github.com/olekukonko/tablewriter"
 	"github.com/spf13/cobra"
 )

@@ -1,4 +1,4 @@
-module github.com/nao1215/hsc
+module github.com/nao1215/http-status-code
 
 go 1.19
 

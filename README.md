@@ -104,7 +104,7 @@ $ hsc list
 +------------------+---------------------------------+--------------------------+
 ```
 
-### Use github.com/nao1215/hsc/http package
+### Usegithub.com/nao1215/http-status-code/http package
 ```
 package main
 

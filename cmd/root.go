@@ -8,7 +8,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/nao1215/hsc/internal/print"
+	"github.com/nao1215/http-status-code/internal/print"
 	"github.com/spf13/cobra"
 )
 

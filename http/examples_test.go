@@ -3,7 +3,7 @@ package http_test
 import (
 	"fmt"
 
-	"github.com/nao1215/hsc/http"
+	"github.com/nao1215/http-status-code/http"
 )
 
 func Example() {
