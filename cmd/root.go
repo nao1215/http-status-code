@@ -13,7 +13,7 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use: "hsc",
+	Use: "http-status-code",
 }
 
 // Execute start command.
