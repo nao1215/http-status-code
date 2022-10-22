@@ -23,7 +23,7 @@ func init() {
 var Version string
 
 // Name is command name
-const Name = "hsc"
+const Name = "http-status-code"
 
 // getVersion return gup command version.
 // Version global variable is set by s.

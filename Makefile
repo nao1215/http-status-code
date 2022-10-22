@@ -1,6 +1,6 @@
 .PHONY: build test clean vet fmt chkfmt
 
-APP         = hsc
+APP         = http-status-code
 VERSION     = $(shell git describe --tags --abbrev=0)
 GO          = go
 GO_BUILD    = $(GO) build

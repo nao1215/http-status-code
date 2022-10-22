@@ -3,8 +3,8 @@
 [![codecov](https://codecov.io/gh/nao1215/http-status-code/branch/main/graph/badge.svg?token=AGqQgVDcL1)](https://codecov.io/gh/nao1215/http-status-code)
 [![reviewdog](https://github.com/nao1215/http-status-code/actions/workflows/reviewdog.yml/badge.svg)](https://github.com/nao1215/http-status-code/actions/workflows/reviewdog.yml)
 [![Go Report Card](https://goreportcard.com/badge/github.com/nao1215/http-status-code)](https://goreportcard.com/report/github.com/nao1215/http-status-code)
-# hsc - Check HTTP status code with CLI
-The hsc (http-status-code) command uses the HTTP status code as a search keyword and print the meaning of that code and the RFC.
+# http-status-code: Check HTTP status code with CLI
+The http-status-code command uses the HTTP status code as a search keyword and print the meaning of that code and the RFC.
 
 # How to install
 ### Use "go install"
@@ -20,10 +20,10 @@ $ go install github.com/nao1215/http-status-code@latest
 # How to use
 ### Search HTTP status code
 ```
-$ hsc search 501
+$ http-status-code search 501
 501 Not Implemented (ref.=RFC9110, Section 15.6.2)
 
-$ hsc search 401 201 303
+$ http-status-code search 401 201 303
 401 Unauthorized (ref.=RFC9110, Section 15.5.2)
 201 Created (ref.=RFC9110, Section 15.3.2)
 303 See Other (ref.=RFC9110, Section 15.4.4)
@@ -31,7 +31,7 @@ $ hsc search 401 201 303
 
 ### List up HTTP status code
 ```
-$ hsc list
+$ http-status-code list
 +------------------+---------------------------------+--------------------------+
 | HTTP STATUS CODE |           DESCRIPTION           |           RFC            |
 +------------------+---------------------------------+--------------------------+
@@ -133,4 +133,4 @@ If you would like to send comments such as "find a bug" or "request for addition
 - [GitHub Issue](https://github.com/nao1215/http-status-code/issues)
 
 # LICENSE
-The hsc project is licensed under the terms of the [MIT License](./LICENSE).
+The http-status-code project is licensed under the terms of the [MIT License](./LICENSE).

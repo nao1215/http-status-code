@@ -14,7 +14,7 @@ var listCmd = &cobra.Command{
 	Short: "List up HTTP status code, description, and RFC (reference)",
 	Long: `list subcommand List up HTTP status code, description, and RFC (reference)
 `,
-	Example: `  hsc list`,
+	Example: `  http-status-code list`,
 	Run: func(cmd *cobra.Command, args []string) {
 		if err := list(cmd, args); err != nil {
 			print.Err(err)

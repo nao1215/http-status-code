@@ -16,7 +16,7 @@ var searchCmd = &cobra.Command{
 	Short: "Print HTTP status code description and RFC (reference)",
 	Long: `search subcommand print HTTP status code description and RFC (reference)
 `,
-	Example: `  hsc searce 404`,
+	Example: `  http-status-code search 404`,
 	Run: func(cmd *cobra.Command, args []string) {
 		if err := search(cmd, args); err != nil {
 			print.Err(err)
