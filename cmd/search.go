@@ -39,7 +39,7 @@ func search(cmd *cobra.Command, args []string) error {
 		h = h.Search(v)
 
 		if h.Code == "" {
-			print.Warn("non-existent HTTP status code")
+			print.Warn("non-existent HTTP status code: " + v)
 			continue
 		}
 		fmt.Printf("%s %s (ref.=%s)\n", h.Code, h.Description, h.RFC)
