@@ -3,7 +3,7 @@
 [![codecov](https://codecov.io/gh/nao1215/http-status-code/branch/main/graph/badge.svg?token=AGqQgVDcL1)](https://codecov.io/gh/nao1215/http-status-code)
 [![reviewdog](https://github.com/nao1215/http-status-code/actions/workflows/reviewdog.yml/badge.svg)](https://github.com/nao1215/http-status-code/actions/workflows/reviewdog.yml)
 [![Go Report Card](https://goreportcard.com/badge/github.com/nao1215/http-status-code)](https://goreportcard.com/report/github.com/nao1215/http-status-code)
-# http-status-code - Check HTTP status code with CLI
+# hsc - Check HTTP status code with CLI
 The hsc (http-status-code) command uses the HTTP status code as a search keyword and print the meaning of that code and the RFC.
 
 # How to install
