@@ -7,7 +7,7 @@ require (
 	github.com/google/go-cmp v0.5.9
 	github.com/mattn/go-colorable v0.1.13
 	github.com/olekukonko/tablewriter v0.0.5
-	github.com/spf13/cobra v1.7.0
+	github.com/spf13/cobra v1.8.0
 )
 
 require (
